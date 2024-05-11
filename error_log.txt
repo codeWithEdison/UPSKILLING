@@ -1,0 +1,1 @@
+ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
