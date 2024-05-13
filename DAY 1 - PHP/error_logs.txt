@@ -1,8 +1,4 @@
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
-ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\error_reporting.php : 11
+ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\DAY 1 - PHP\error_reporting.php : 23
+ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\DAY 1 - PHP\error_reporting.php : 23
+ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\DAY 1 - PHP\error_reporting.php : 23
+ERROR: [2] Undefined variable $undefin - C:\xampp\htdocs\UPSKILLING\DAY 1 - PHP\error_reporting.php : 23
