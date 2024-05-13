@@ -1,0 +1,93 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Forest Green",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#027A28",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#87D205",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#05DD95",
+          "name": "Tertiary"
+        },
+        {
+          "slug": "tertiary-lite",
+          "color": "#20B850",
+          "name": "Tertiary Lite"
+        },
+        {
+          "slug": "accent",
+          "color": "#2BCF93",
+          "name": "Accent"
+        },
+        {
+          "slug": "accent-lite",
+          "color": "#65E1B4",
+          "name": "Accent Lite"
+        },
+        {
+          "slug": "background-alt",
+          "color": "#E9F6ED",
+          "name": "Background Alternative"
+        },
+        {
+          "slug": "foreground",
+          "color": "#747474",
+          "name": "Foreground"
+        },
+        {
+          "slug": "background",
+          "color": "#ffffff",
+          "name": "Background"
+        },
+        {
+          "name": "Heading Color",
+          "color": "#132F3F",
+          "slug": "heading-color"
+        },
+        {
+          "name": "Sub Heading Color",
+          "color": "#515151",
+          "slug": "sub-heading-color"
+        },
+        {
+          "name": "Foreground Alternative",
+          "color": "#FEFEFE",
+          "slug": "foregound-alt"
+        },
+        {
+          "name": "Border Color",
+          "color": "#EDF4EF",
+          "slug": "border-color"
+        },
+        {
+          "color": "#ffffff00",
+          "name": "Transparent",
+          "slug": "transparent"
+        }
+      ],
+      "duotone": [
+        {
+          "colors": ["#027A28", "#ffffff"],
+          "slug": "primary",
+          "name": "Primary"
+        },
+        {
+          "colors": ["#ffffff", "#027A28"],
+          "slug": "secondary",
+          "name": "Secondary"
+        }
+      ]
+    }
+  }
+}

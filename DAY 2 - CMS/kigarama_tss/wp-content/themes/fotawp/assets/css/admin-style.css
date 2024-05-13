@@ -1,0 +1,542 @@
+.fotawp-swiper-holder li.wp-block-post {
+  display: none;
+}
+.fotawp-swiper-holder li.wp-block-post:first-child {
+  display: block;
+}
+.fotawp-dashboard .container {
+  position: relative;
+  padding: 20px;
+}
+.fotawp-dashboard {
+  display: inline-block;
+  width: 101.4999%;
+  padding: 0;
+  margin-left: -20px;
+  background-color: #f6f8ff;
+}
+
+.fotawp-dashboard #fotawp-dashboard-tabs-nav {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 15px 20px;
+  color: #55517a;
+  border-radius: 0;
+  display: inline-block;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  /* text-transform: uppercase; */
+  transition: ease all 0.23s;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li a:hover {
+  color: #574be8;
+}
+.fotawp-dashboard #fotawp-dashboard-tabs-nav li.active a {
+  background: #ffffff;
+  color: #574be8;
+}
+.fotawp-dashboard #tabs-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+}
+
+.fotawp-dashboard-header {
+  background: #ffffff;
+  color: #232323;
+  margin-bottom: 20px;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+}
+
+.fotawp-dashboard-header .theme-screen img {
+  width: 270px;
+  margin: 0 0 -4px;
+}
+.fotawp-dashboard-header .theme-screen {
+  padding: 40px 40px 0;
+}
+.fotawp-dashboard-header h1 {
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+.welcome-buttons a {
+  background: #0ad2ba;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  padding: 13px 15px;
+  color: #fefefe;
+  border-radius: 5px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.welcome-buttons a:last-child {
+  background: #5566ca;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.fotawp-dashboard-header .theme-name {
+  display: flex;
+  align-items: center;
+}
+.fotawp-admin-notice.notice.notice-info .theme-name span {
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  border-bottom: 1px solid;
+}
+.fotawp-dashboard-header .theme-name h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.fotawp-admin-notice.notice.notice-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fotawp-admin-notice.notice.notice-info .theme-screen {
+  min-width: 40%;
+  text-align: center;
+}
+.fotawp-admin-notice.notice.notice-info .theme-screen img {
+  max-width: 100%;
+  margin: 20px 0 -4px;
+}
+.fotawp-admin-notice.notice.notice-info .info-content {
+  padding-left: 40px;
+  width: 60%;
+  padding-right: 100px;
+}
+.fotawp-admin-notice.notice.notice-info .info-content h2 {
+  font-size: 21px;
+  line-height: 36px;
+  margin: 10px 0 10px;
+  font-weight: 500;
+  max-width: 100%;
+}
+.fotawp-admin-notice.notice.notice-info .info-content h6 {
+  font-size: 16px;
+  color: #135e96;
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+.fotawp-admin-notice.notice.notice-info .info-content h3 {
+  font-weight: 400;
+  font-size: 15px;
+  color: #717070;
+  margin: 0 0 20px;
+  line-height: 24px;
+}
+.new-features small {
+  background: #d63638;
+  padding: 4px 6px;
+  border-radius: 30px;
+  color: #fff;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button {
+  background: #2271b1;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 10px;
+  transition: all ease 0.23s;
+  font-size: 14px;
+  line-height: 20px;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button:hover {
+  background: #135e96;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.dismiss-notice.btn-notice-dismiss {
+  color: #afaaaa;
+  font-size: 16px;
+  transition: all ease 0.23s;
+}
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.dismiss-notice.btn-notice-dismiss:hover {
+  color: #d63638;
+}
+.ticket-create {
+  background: #574be8;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 3px;
+}
+.ticket-create:hover {
+  background: #0ad2ba;
+  color: #fff;
+}
+.support-note {
+  color: #574be8;
+  font-style: italic;
+}
+
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner {
+  padding-right: 50px;
+  position: relative;
+}
+/*processing-spinner*/
+.fotawp-admin-notice.notice.notice-info .info-content .admin-button.info-button.processing-spinner:before {
+  content: "";
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #574be8;
+  display: inline-block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: processingLocader 1s ease-in infinite;
+}
+#fotawp-welcome h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+@keyframes processingLocader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+.fotawp-dashboard #tabs-content #install-activate-button {
+  background: #5566ca;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all ease 0.23s;
+  margin-bottom: 30px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.fotawp-dashboard .highlight-text {
+  color: #7b86fa;
+  font-size: 16px;
+  font-weight: 500;
+}
+.fotawp-dashboard .plugin-list {
+  position: relative;
+  grid-template-columns: repeat(auto-fill, 270px);
+  display: grid;
+  column-gap: 25px;
+  margin-top: 25px;
+}
+.fotawp-dashboard .plugin-list .frp_holder {
+  border-radius: 6px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  padding: 30px 0 15px 0;
+}
+.fotawp-dashboard .plugin-list .frp_holder img {
+  max-width: 250px;
+  margin-bottom: 15px;
+  width: auto;
+  height: 130px;
+  object-fit: cover;
+}
+.fotawp-dashboard a.frp_plugin_action,
+.frp_holder_footer a.install-activate {
+  background: #7b86fa;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 13px;
+  border-radius: 4px;
+  transition: all ease 0.23s;
+  margin-top: 15px;
+}
+.fotawp-dashboard a.frp_plugin_action:hover,
+.fotawp-dashboard #tabs-content #install-activate-button:hover,
+.frp_holder_footer a.install-activate:hover {
+  background: #0ad2ba;
+}
+
+.fotawp-dashboard a.frp_plugin_action.activation-disabled {
+  background: #ededed;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+#fotawp-comparision .more-button {
+  background-color: #5566ca;
+  color: #fff;
+  text-decoration: none;
+  padding: 9px 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+#fotawp-comparision .more-button:hover {
+  background: #0ad2ba;
+}
+.fotawp-dashboard .fotawp-basic-guide {
+  display: inline-block;
+  width: 100%;
+}
+.fotawp-dashboard .fotawp-basic-guide h3 {
+  margin: 0 0 20px;
+}
+.fotawp-bradning-bar {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 20px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+}
+.fotawp-dashboard .fotawp-basic-guide .guidelist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.fotawp-dashboard .fotawp-basic-guide .guidelist .guide-editor-card {
+  background: #fbfcff;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #e9edfd;
+}
+.fotawp-dashboard .fotawp-basic-guide .step-guideline .step-list {
+  border: 1px solid #e9edfd;
+  padding: 20px 20px 10px;
+  margin: 20px 0 0;
+  border-radius: 5px;
+}
+.fotawp-dashboard .fotawp-basic-guide .guidelist .guide-editor-card h4 {
+  margin: 0;
+}
+.fotawp-dashboard .doc-footer {
+  text-align: center;
+  padding: 30px;
+}
+.fotawp-dashboard .fotawp-basic-guide .step-guideline h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.fotawp-bradning-bar .sitelink {
+  text-decoration: none;
+  font-size: 15px;
+  color: #5566ca;
+}
+.fotawp-dashboard .doc-footer .full-doc-btn {
+  border: 1px solid;
+  padding: 10px 20px;
+  color: #5566ca;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.fotawp-dashboard-header .theme-details .fotawp-pro-btns,
+.fotawp-dashboard .fotawp-dashboard-content .import-redirect-button {
+  background: #5566ca;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.fotawp-dashboard-header .theme-details .fotawp-pro-btns .dashicons.dashicons-external {
+  font-size: 17px;
+  margin-top: -1px;
+}
+.fotawp-dashboard .doc-footer .full-doc-btn .dashicons.dashicons-open-folder {
+  margin-top: -2px;
+}
+.fotawp-dashboard-header .theme-details .fotawp-pro-btns:hover,
+.fotawp-dashboard .fotawp-dashboard-content .import-redirect-button:hover {
+  background: #0ad2ba;
+}
+.fotawp-bradning-bar .sitelink:hover,
+.fotawp-dashboard .doc-footer .full-doc-btn:hover {
+  color: #0ad2ba;
+}
+.fotawp-bradning-bar .cozythemes-logo img {
+  height: 32px;
+  width: auto;
+}
+.fotawp-dashboard-header .theme-details {
+  padding: 40px;
+}
+.fotawp-dashboard-header .theme-name span {
+  font-weight: 300;
+  color: #4854a6;
+}
+.fotawp-dashboard .fotawp-basic-guide .guidelist .guide-editor-card a {
+  color: #4854a6;
+  font-weight: 500;
+}
+.fotawp-dashboard .fotawp-basic-guide .guidelist .guide-editor-card a:hover {
+  color: #0ad2ba;
+}
+.fotawp-dashboard-header .welcome-buttons a {
+  margin-top: 15px;
+  font-size: 12px;
+  padding: 8px 15px;
+}
+.fotawp-dashboard-header .welcome-buttons a:hover {
+  background: #0ad2ba;
+  color: #fff;
+  border-color: #0ad2ba;
+}
+.fotawp-dashboard-header .theme-details h4 {
+  margin-top: 0;
+}
+.fotawp-dashboard .fotawp-dashboard-content .dashboard-content {
+  width: 73%;
+}
+.fotawp-dashboard .fotawp-dashboard-content .fotawp-dashboard-sidebar {
+  width: 27%;
+  margin-top: 48px;
+  padding-left: 30px;
+}
+.fotawp-dashboard .fotawp-dashboard-content {
+  display: flex;
+  margin-top: 20px;
+}
+.fotawp-dashboard-sidebar .sidebar-card {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+  background: #fff;
+  padding: 15px 30px 30px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.fotawp-dashboard-sidebar .sidebar-card a.sidebar-btn {
+  border: 1px solid;
+  color: #4854a6;
+  padding: 8px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.fotawp-dashboard-sidebar .sidebar-card a.sidebar-btn:hover {
+  background: #0ad2ba;
+  color: #fff;
+  border-color: #0ad2ba;
+}
+
+.fotawp-dashboard-sidebar .sidebar-card h3 {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 15px;
+}
+.fotawp-dashboard .dashboard-footer-cta {
+  background-color: #eef2ff;
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.fotawp-dashboard .dashboard-footer-cta .notice-content {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 auto;
+}
+.fotawp-dashboard .dashboard-footer-cta .notice-content h2 {
+  font-size: 24px;
+  color: #5566ca;
+}
+.fotawp-dashboard .dashboard-footer-cta .notice-content .upgrade-btn {
+  background: #5566ca;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.fotawp-dashboard .dashboard-footer-cta .notice-content .upgrade-btn:hover {
+  background: #0ad2ba;
+}
+.fotawp-dashboard .dashboard-comparision-table {
+  width: 100%;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+.fotawp-dashboard .dashboard-comparision-table tr {
+  border: 0;
+}
+.fotawp-dashboard .dashboard-comparision-table tr td {
+  border-bottom: 1px solid #e4e8fb;
+  padding: 15px 0;
+  margin: 0;
+  font-size: 14px;
+  color: #545454;
+}
+.fotawp-dashboard .dashboard-comparision-table tr:first-child td,
+.fotawp-dashboard .dashboard-comparision-table .advanced-features {
+  font-weight: 600;
+  color: #5566ca;
+  font-size: 16px;
+}
+.fotawp-dashboard .dashboard-comparision-table tr:last-child td {
+  border: 0;
+}
+.fotawp-dashboard .dashboard-comparision-table tr:first-child td .pro-badge {
+  background: #0ad2ba;
+  color: #fff;
+  border-radius: 20px;
+  padding: 4px 17px;
+}
+.fotawp-dashboard .dashboard-comparision-table .dashicons {
+  color: #0ad2bb;
+  font-size: 24px;
+  margin-right: 6px;
+}
+.fotawp-dashboard .dashboard-comparision-table .dashicons.dashicons-no-alt {
+  color: #ff6f6f;
+}
+
+.fotawp-dashboard .dashboard-comparision-table tr td .feature-text {
+  display: inline-block;
+  max-width: 85%;
+}
+@media (max-width: 767px) {
+  .fotawp-dashboard .fotawp-dashboard-content {
+    display: inline-block;
+  }
+  .fotawp-dashboard .fotawp-dashboard-content .dashboard-content,
+  .fotawp-dashboard .fotawp-dashboard-content .fotawp-dashboard-sidebar {
+    width: 100%;
+    padding-left: 0;
+  }
+  .fotawp-dashboard .fotawp-basic-guide .guidelist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 560px) {
+  .fotawp-dashboard .fotawp-basic-guide .guidelist {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
