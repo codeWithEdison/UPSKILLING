@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <div id="app">
+        <form @submit.prevent="login">
+            <custom-input
+                v-model="username"
+                label="Username"
+                type="text"
+            ></custom-input>
+            <custom-input
+                v-model="password"
+                label="Password"
+                type="password"
+            ></custom-input>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    username: '',
+                    password: ''
+                }
+            },
+            methods: {
+                login() {
+                    // Handle login logic here
+                    console.log('Username:', this.username);
+                    console.log('Password:', this.password);
+                }
+            }
+        });
+
+        app.component('custom-input', {
+            props: {
+                modelValue: String,
+                type: String,
+                label: String
+            },
+            emits: ['update:modelValue'],
+            template: `
+                <label>
+                    {{ label }} <br>
+                    <input :type="type" :value="modelValue" @input="$emit('update:modelValue', $event.target.value)">
+                </label> <br>
+            `
+        });
+
+        app.mount('#app');
+    </script>
+</body>
+</html>

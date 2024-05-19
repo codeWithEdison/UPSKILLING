@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="app">
+        <form @submit.prevent="calculate">
+            <label for="firstNumber">
+                First Number <br>
+                <input type="number" id="firstNumber" v-model="num1">
+            </label> <br>
+           
+            <label for="secondNumber">
+                Second Number <br>
+                <input type="number" id="secondNumber" v-model="num2">
+            </label> <br>
+           
+            <button type="submit">Sum</button>
+            <p>Sum: {{ sum }}</p>
+        </form>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    num1: 0,
+                    num2: 0,
+                    sum: 0
+                }
+            },
+            methods: {
+                calculate() {
+                    this.sum = Number(this.num1) + Number(this.num2);
+                }
+            }
+        });
+    
+        app.mount('#app');
+    </script>
+</body>
+</html>

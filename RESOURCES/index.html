@@ -1,0 +1,35 @@
+<!--
+    Steps to use Vue in HTML:
+    1. Start with a basic HTML file.
+    2. Add a <div> tag with id="app" for Vue connectivity.
+    3. Tell the browser how to handle Vue code by adding a <script> tag.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Vue.js</title>
+</head>
+<body>
+    <div id="app">
+        {{message + name }}
+        {{Math.ceil(Math.random()*10)}}
+    </div>
+    <!-- <div>
+        {{Math.ceil(Math.random()*10)}}
+    </div> -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script> 
+    <script>
+        const app = Vue.createApp({
+            data() {
+                return {
+                    message: "Welcome to our page ",
+                    name : 'edison'
+                }
+            }
+        });
+        app.mount('#app');
+    </script>  
+</body>
+</html>

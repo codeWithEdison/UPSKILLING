@@ -1,0 +1,70 @@
+<!-- 
+    step  to use vue in html:
+1. start with basic html file
+2. add a <div> tad with id = "app" for vue connectivity
+3. tell the brouser how to handle vue code by addong 
+    <script  atg with link to vue
+4. add s<script> tag with the vue instance inside
+5. connect the vue instance to the <div id ="app"> tag
+
+
+
+    ---- Vue Directives ---
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my vue js</title>
+    <style>
+        .mydiv1{
+            width: 100px;
+            height: 100px;
+            background: red;
+            margin: 10px;
+
+        }
+        [v-clock]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" v-cloak>
+        {{message}}
+        <button @click="showbox">toogle box</button>
+        <div v-show="isvisible" class="mydiv1"></div>
+        <ul>
+            <li v-for="i in animals">{{i}}</li>
+        </ul>
+        <input @keyup.Enter="display"  v-model="message" type="text" >
+        <!-- <div v-else-if="isvisible1" class="mydiv1" style="background-color: yellow;"></div>
+        <div v-else class="mydiv1" style="background-color: blue;"></div> -->
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data(){
+                return {
+                    message: " ",
+                    isvisible: false,
+                    isvisible1: true,
+                    animals : Array('cow', 'dog', 'hen')
+                }
+            },
+            methods :{
+                showbox(){
+                  this.isvisible =!this.isvisible 
+                },
+                display(){
+                    console.log(this.message);
+                }
+            }
+        })
+        app.mount('#app');
+    </script>
+
+</body>
+</html>
