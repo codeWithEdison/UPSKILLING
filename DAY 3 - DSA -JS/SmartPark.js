@@ -37,7 +37,7 @@ function traverseCarPark() {
 // Testing the program
 parkCar("ABC123", "2024-05-12", "08:00");
 parkCar("XYZ456", "2024-05-12", "09:30");
-// parkCar("XYZ456", "2024-05-12", "09:30");
+// parkCar("XYZ456", "2024-05-12", "09:30"); 
 parkCar("DEF789", "2024-05-12", "10:45");
 removeCar(0);
 traverseCarPark();
