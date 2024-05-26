@@ -2,9 +2,9 @@
   "name": "restfull-api",
   "version": "1.0.0",
   "description": "",
-  "main": "indes.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
